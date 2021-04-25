@@ -1,0 +1,48 @@
+/* grid */
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    min-height: 10px;
+    position: relative;
+
+    /* border: 1px solid green; */
+}
+.container.full{
+    max-width: 100%;
+}
+.row {
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+    min-height: 10px;
+   
+    /* background: #ccc; */
+    /* border: 1px solid red; */
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    min-height: 10px;
+    flex: 1;
+
+    /* background: yellowgreen; */
+    /* border: 1px solid blue; */
+}
+.col.col-2{
+    flex: 2;
+}
+
+/* olds helpers */
+/* .fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+.clear{
+    clear: both;
+} */

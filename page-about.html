@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/alunova.css">
+    <link rel="stylesheet" href="assets/css/slide.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/forms-ui.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <!-- owlcarousel style -->
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl-config.css">
+    
+    <!-- owlcarousel script -->
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+
+</head>
+
+<body class="background-alunova">
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col col-2">
+                    <div class="brand">
+                        <h1>Alunova</h1>
+                    </div>
+                </div>
+                <div class="col col-2">
+                    <nav class="nav-menu fright">
+                        <ul class="menu-list">
+                            <li class="menu-item active"><a href="#">Home</a></li>
+                            <li class="menu-item"><a href="#">Sobre</a></li>
+                            <li class="menu-item"><a href="#">Serviços</a></li>
+                            <li class="menu-item"><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+   
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+    (function(){
+        $('#main-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        responsive: {
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+    });
+
+    $('#case-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        responsive: {
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+    })
+    })()
+    </script>
+</body>
+</html>

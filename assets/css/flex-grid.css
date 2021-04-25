@@ -1,0 +1,20 @@
+/* grid */
+
+.container {
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    border: 1px solid #f00;
+    margin: 0 auto;
+}
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col {
+    display: flex;
+    padding: 0 15px 0 15px;
+    border: 1px solid green;
+    flex-direction: column;
+}

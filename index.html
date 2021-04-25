@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+    <script src="assets/libs/jquery.min.js"></script>
+    <script src="assets/libs/owl.carousel.js"></script>
+  
+</head>
+
+<body class="background-alunova">
+    <header class="section header-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col col-2">
+                    <div class="brand">
+                        <h1>Alunova</h1>
+                    </div>
+                </div>
+                <div class="col col-2">
+                    <nav class="nav-menu fright">
+                        <ul class="menu-list">
+                            <li class="menu-item active" onclick="siteController.goPageHome()"><a href="#">Home</a></li>
+                            <li class="menu-item"><a href="#" onclick="siteController.goPageAbout()">Sobre</a></li>
+                            <li class="menu-item"><a href="#">Serviços</a></li>
+                            <li class="menu-item"><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+   <section class="section section-banner">
+       <div class="container">
+           <div class="row">
+               <div class="col">
+                   <div id="slide" class="slide owl-carousel">
+                        <div class="slide-item"> <img class="slide-img" src="https://arcowebarquivos-us.s3.amazonaws.com/imagens/91/25/arq_49125.jpg" alt="slide item"></div>
+                        <div class="slide-item"> <img class="slide-img" src="https://arcowebarquivos-us.s3.amazonaws.com/imagens/91/25/arq_49125.jpg" alt="slide item"></div>
+                        <div class="slide-item"> <img class="slide-img" src="https://arcowebarquivos-us.s3.amazonaws.com/imagens/91/25/arq_49125.jpg" alt="slide item"></div>
+                        <div class="slide-item"> <img class="slide-img" src="https://arcowebarquivos-us.s3.amazonaws.com/imagens/91/25/arq_49125.jpg" alt="slide item"></div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+    <section class="section section-portifolio">
+       <div class="container">
+           <div class="row">
+               <div class="col"></div>
+           </div>
+       </div>
+   </section>
+   
+    <section class="section section-contato">
+       <div class="container">
+           <div class="row">
+               <div class="col"></div>
+           </div>
+       </div>
+   </section>
+
+    <footer class="section section-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+    <script>
+        $(document).ready(function() {
+            $("#slide").owlCarousel({
+                margin: 10,
+                nav: false,
+                loop: true,
+                autoWidth: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    414:{
+                        items: 1
+                    },
+                    768: {
+                        items: 1
+                    },
+                    1080:{
+                        items: 1
+                    }
+                }
+            });            
+        });
+    </script>
+</body>
+</html>

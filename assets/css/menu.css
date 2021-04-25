@@ -1,0 +1,27 @@
+.header-menu{
+    background: rgb(56, 56, 189)
+}
+.header-menu .brand {
+    display: table;
+}
+.header-menu .brand h1{}
+.header-menu .nav-menu{
+    display: table;
+}
+.header-menu .nav-menu .menu-list{
+    list-style: none;
+    float: right;
+    /* border: 1px solid red; */
+}
+.header-menu .nav-menu .menu-list .menu-item {
+    display: inline-table;
+    /* border: 1px solid #000; */
+}
+.header-menu .nav-menu .menu-list .menu-item a{
+    display: block;
+    padding: 10px;    
+    text-decoration: none;
+}
+.header-menu .nav-menu .menu-list .menu-item a:hover{
+    text-decoration: underline;
+}

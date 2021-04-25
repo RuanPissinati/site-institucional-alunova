@@ -1,0 +1,64 @@
+.background-alunova{
+    background-image: url('https://www.wallbg.com/wallpaper/1920x1200/2016/Abstract%20colorful%20design%20blue%20major%20Wallpaper%2068.jpg');
+    background-position: center;
+    background-size: cover;
+}
+/* MENU */
+.header-menu {
+    background: rgb(56, 56, 189);
+}
+.header-menu h1 {
+    letter-spacing: -3px;
+    color: #fff;
+    margin: 10px 0 0 0;
+}
+.header-menu .nav-menu{
+    margin: 10px 0 0 0;
+}
+.header-menu a{
+    color: #fff;
+}
+.header-menu a:hover{
+    background-color: rgb(43, 43, 139);
+}
+/* SECTIONS */
+.section{
+    display: block;
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+}
+/* section banner */
+.section-banner{
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+.section-banner .slide{
+}
+.section-banner .slide .slide-item {
+    display: block;
+    height: 500px;
+}
+.section-banner .slide .slide-item .slide-img{
+}
+
+/* section sobre */
+.section-sobre{
+    background: #fff;
+}
+
+/* section portifolio */
+.section-portifolio{
+    background: #fff;
+}
+
+/* section contato */
+.section-contato{
+    background: #fff;
+}
+
+/* section footer */
+.section-footer{
+    background: #fff;
+}
